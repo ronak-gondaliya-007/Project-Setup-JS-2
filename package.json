@@ -1,0 +1,42 @@
+{
+  "name": "project-setup-js-2",
+  "version": "1.0.0",
+  "description": "This is a Node.js-based application designed with scalability, modularity, and maintainability in mind. It follows professional coding standards and best practices to ensure clean and efficient code. This project structure is suitable for building robust APIs and backend systems for web or mobile applications.",
+  "main": "src/server.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest",
+    "start": "npm test && node src/server.js",
+    "dev": "npm test && nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ronak-gondaliya-007/Project-Setup-JS-2.git"
+  },
+  "keywords": [],
+  "author": "Ronak Gondaliya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ronak-gondaliya-007/Project-Setup-JS-2/issues"
+  },
+  "homepage": "https://github.com/ronak-gondaliya-007/Project-Setup-JS-2#readme",
+  "dependencies": {
+    "@socket.io/redis-adapter": "^8.3.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "helmet": "^8.0.0",
+    "jest": "^29.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.8.4",
+    "mysql2": "^3.11.5",
+    "nodemon": "^3.1.7",
+    "redis": "^4.7.0",
+    "sequelize": "^6.37.5",
+    "socket.io": "^4.8.1"
+  }
+}
